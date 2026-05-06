@@ -5,15 +5,25 @@
 *Version: v0.1 (Experimental)*
 
 ## Overview
-Presence AI is an advanced, autonomous cognitive system designed to go beyond standard conversational agents. It features hybrid AI routing, real execution environments, and a dedicated Builder Agent capable of scaffolding, modifying, and running real projects directly on your system. 
+A modular AI assistant that routes tasks across multiple LLMs and can generate + execute real code projects locally.
 
 Presence AI doesn't just return text or simulate outputs—it acts upon its environment to execute code, build applications, and automate system tasks.
+
+## Who is this for?
+- Developers experimenting with agentic AI systems
+- Students exploring autonomous coding systems
+- Researchers studying LLM orchestration
+
+> [!WARNING]
+> **⚠️ Warning: Real Execution**
+> This system executes real commands on your machine.
+> Use only in a controlled environment.
 
 ## Key Features
 - **Hybrid Routing (Groq + Gemini + Local):** Automatically routes tasks to the most suitable LLM based on complexity and speed requirements.
 - **Builder Agent:** Writes, builds, and runs real code directly on the host machine.
 - **Memory + Session System:** Maintains persistent context across sessions to remember past interactions and preferences.
-- **Error Detection + Auto Repair:** The Builder Agent autonomously detects syntax/runtime errors and loops back to fix them without user intervention.
+- **Error Detection + Auto Repair:** Attempts automatic error detection and repair (experimental, not fully reliable yet).
 - **Real Execution (No Simulation):** Actions taken by the AI interact with the real filesystem and OS environments.
 
 ## Architecture Overview
@@ -50,6 +60,16 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Example Build
+**Prompt:**
+> "Build a task manager web app"
+
+**Output:**
+- Created 6 files
+- Installed dependencies
+- Ran Flask server
+- Available at http://127.0.0.1:5000
+
 ## Installation
 For a more detailed setup:
 1. **Clone the repository:**
@@ -72,8 +92,6 @@ For a more detailed setup:
 
 ## Usage Examples
 Interact with Presence AI through natural language prompts:
-- **"Build a Flask app"**
-  - *Result:* Creates a fully functional Flask application in the `/projects/` directory, runs it automatically, and opens a local server.
 - **"Explain TCP vs UDP"**
   - *Result:* Uses the deep reasoning engine to provide a technical explanation.
 - **"Set a reminder"**
