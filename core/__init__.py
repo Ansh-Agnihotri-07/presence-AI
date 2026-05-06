@@ -1,0 +1,1 @@
+﻿# core/ — Event bus, config, logging, and startup orchestration

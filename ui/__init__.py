@@ -1,0 +1,1 @@
+﻿# ui/ — Presence orb, chat panel, tray icon, state animator

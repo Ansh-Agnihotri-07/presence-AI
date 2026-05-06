@@ -1,0 +1,1 @@
+﻿# memory/ — Local-first JSON memory system

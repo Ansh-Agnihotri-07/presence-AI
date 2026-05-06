@@ -1,0 +1,1 @@
+﻿# screen/ — On-demand screen capture, OCR, and context classification

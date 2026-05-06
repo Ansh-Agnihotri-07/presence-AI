@@ -1,0 +1,1 @@
+﻿# reasoning/ — Goal analysis and feasibility checking

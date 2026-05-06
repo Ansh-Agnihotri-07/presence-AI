@@ -1,0 +1,1 @@
+﻿# voice/ — STT, TTS, VAD, and voice pipeline

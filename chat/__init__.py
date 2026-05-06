@@ -1,0 +1,1 @@
+﻿# chat/ — Chat input processing, LLM bridge, and output rendering
